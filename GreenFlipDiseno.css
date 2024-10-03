@@ -222,6 +222,7 @@ line-height: 1;
 
 .grupoImagenes {
     padding-top: 30px;
+    padding-left: 30px;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -246,7 +247,6 @@ line-height: 1;
     background-color: #000;
     color: #fff;
     padding-top: 20px;
-
 }
 
 .proposito h2{
@@ -259,6 +259,7 @@ line-height: 1;
     display: flex;
     justify-content: center; /* Ajusta la separación entre las columnas */
     gap: 20px;
+    padding-bottom: 20px;
 }
 
 .columnaInfo {
@@ -270,11 +271,42 @@ line-height: 1;
 }
 
 .columnaInfo img {
+    display: block;
+    margin: 0 auto;
     width: 30%;
-    justify-content: center;
-}
+    }
+
 
 .columnaInfo h4 {
     text-align: center;
     font-size: 18px;
+}
+
+.full-title {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    color:#000;
+}
+
+.full-title h2{
+    font-size: 7rem;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.left {
+    width: 35%;
+    height: 30%;
+    margin-left: -130px;
+}
+
+.right {
+    width: 20%;
+    height: 20%;
+    align-self: center;
+    padding-right: 30px;
 }
