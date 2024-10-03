@@ -1,0 +1,280 @@
+.hero-section {
+    position: relative;
+    height: 100vh; /* Altura de toda la pantalla */
+    width: 100vw;
+    background-image: url('./imagenes/2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.hero-section h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/*Estilos para el resto de la página*/
+body {
+    margin: 0;
+    font-family: 'Helvetica', 'HelveticaWorld-Regular',  sans-serif;
+}
+
+nav img {
+    width: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;   
+}
+
+ul {
+    justify-content: right;
+    list-style: none;
+    display: flex;
+    padding-right: 2%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;   
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /*Capa semitransparente negra*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.inicio {
+    margin-top: 50px;
+}
+
+.slogan {
+    padding-right: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.inicio h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #53A46F;
+}
+
+.hero-text {
+    font-size: 18px;
+    padding-left: 50px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 0.2;
+}
+
+.main-imagenes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-imagenes img {
+    width: 45%;
+    flex-direction: row;
+}
+
+ .callout {
+    position: absolute;
+    padding: 10px;
+    top: 72%;
+    background-color: #fff; /* Color de fondo del botón */
+    color: #000;
+    font-size: 24px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ .callout:hover {
+    background-color:#1046ab; /* Cambia el color al pasar el mouse */
+    color: white;
+}
+
+.hacer {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.hacer h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.hacer p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.features {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 10px; 
+  width: 100%;
+}
+
+.sobreNosotros {
+    background-color: #000;
+    color: #fff;
+    padding-top: 30px;
+    
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
+    grid-template-rows: 1fr; /* 1 fila */
+    gap: 10px; /* Espacio entre los elementos del grid */
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.texto {
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-right: 60px;
+}
+
+.texto h2 {
+font-size: 90px;
+text-transform: uppercase;
+font-weight: bold;
+line-height: 1;
+}
+
+.imagen img {
+    width: 80%;
+}
+
+.grupoImagenes {
+    padding-top: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #fff;
+}
+
+.grupoImagenes img {
+    width: 22%;
+}
+
+.frase {
+    padding-top: 20px;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+}
+
+.proposito {
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+
+}
+
+.proposito h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: center; /* Ajusta la separación entre las columnas */
+    gap: 20px;
+}
+
+.columnaInfo {
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.columnaInfo img {
+    width: 30%;
+    justify-content: center;
+}
+
+.columnaInfo h4 {
+    text-align: center;
+    font-size: 18px;
+}
