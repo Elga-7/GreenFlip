@@ -13,8 +13,9 @@
   <nav>
     <!-- Barra de navegación -->
     <img src="./Screenshot 2024-10-03 10.13.28 AM.png" alt="" class="logotipo" />
+    <button class="navbar-toggle" onclick="toggleNavbar()">☰</button>
     <div class="menu">
-      <ul>
+      <ul class="navbar-links">
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#hacer">Lo que Hacemos</a></li>
         <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
@@ -24,15 +25,7 @@
       </ul>
     </div>
   </nav>
-<!--   
-  <div class="hero-section">
 
-    <div class="hero-overlay">
-        <h1>Sé Parte Del Cambio</h1>
-        <h3>El mejor servicio. Los mejores estilos.</h3>
-    </div>
-  </div> -->
-  <!-- Sección de inicio -->
   <div class="inicio" id="inicio">
     <div class="slogan"><h3>Es hora de que dejemos una huella en la <br>​historia</h3></div>
     <h1>GreenFlip</h1>
@@ -59,40 +52,42 @@
 
     <div class="features">
       <div class="feature">
-        <img src="" alt="" />
-        <h4>Recolección y Clasificación de Plásticos</h4>
+        <img src="./imagenes/eva-tillmann-svWwi23gEo0-unsplash.jpg" alt="" />
+        <div class="text"><h4>Recolección y Clasificación de Plásticos</h4>
         <p>
           Recoge plásticos usados de diversas fuentes, como residuos
           domésticos, industriales o comerciales, y los clasifica según el
           tipo de plástico (PET, HDPE, PP, etc.) para asegurar un reciclaje
           adecuado.
-        </p>
+        </p></div>
       </div>
 
       <div class="feature">
-        <img src="" alt="" />
+        <img src="./imagenes/fernando-mate-cl1HHDy8ZoA-unsplash.jpg" alt="" />
+        <div class="text">
         <h4>Proceso de Reciclado</h4>
         <p>
           Transforma el plástico triturado en materia prima reutilizable
           mediante procesos como la extrusión, moldeo por inyección o soplado.
-        </p>
+        </p></div>
       </div>
 
       <div class="feature">
-        <img src="" alt="" />
-        <h4>Limpieza y Trituración</h4>
-        Limpia los plásticos recolectados para eliminar impurezas como
+        <img src="./imagenes/sebastiano-piazzi-0GgOc4PGkUM-unsplash.jpg" alt="" />
+        <div class="text"><h4>Limpieza y Trituración</h4>
+        <p>Limpia los plásticos recolectados para eliminar impurezas como
         etiquetas, residuos orgánicos y contaminantes. Luego, los tritura en
-        pequeñas piezas para facilitar el proceso de reciclado.
+        pequeñas piezas para facilitar el proceso de reciclado.</p></div>
       </div>
 
       <div class="feature">
-        <h4>Diseño y Fabricación de Nuevos Productos</h4>
+        <img src="./imagenes/hoyoun-lee-v2JfjLv1fao-unsplash.jpg" alt="" />
+        <div class="text"><h4>Diseño y Fabricación de Nuevos Productos</h4>
         <p>
           Utiliza la materia prima reciclada para diseñar y fabricar nuevos
           objetos, como envases, muebles, textiles, o cualquier otro producto
           que pueda ser creado a partir del plástico reciclado.
-        </p>
+        </p></div>
       </div>
     </div>
   </div>
@@ -116,6 +111,7 @@
       <img src="./imagenes/3 (8).png" alt="" />
     </div>
   </div>
+</div>
     <div class="grupoImagenes">
       <img src="./imagenes/4 (10).png" alt="" />
       <img src="./imagenes/5 (5).png" alt="" />
@@ -128,11 +124,11 @@
       materiales para todas las marcas.
     </h3>
   </div>
-  </div>
+  
   <div class="proposito">
     <h2>Hacemos el trabajo duro</h2>
     <div class="columnas">    <div class="columnaInfo">
-      <img src="./imagenes/8 (2).png" alt="" />
+      <img src="./imagenes/bolsa de plastico.png" alt="" />
       <h4>Reducir la Huella de Plástico</h4>
       <p>
         GreenFlip se compromete a disminuir la cantidad de plástico que
@@ -144,7 +140,7 @@
     </div>
 
     <div class="columnaInfo">
-      <img src="./imagenes/9 (2).png" alt="" />
+      <img src="./imagenes/9 (1).png" alt="" />
       <h4>Promover la Economía Circular</h4>
       <p>
         Buscamos cerrar el ciclo del plástico a través de un modelo de
@@ -157,7 +153,7 @@
     </div>
 
     <div class="columnaInfo">
-      <img src="./imagenes/10 (1).png" alt="" />
+      <img src="./imagenes/10 (2).png" alt="" />
       <h4>Innovar en Productos Sostenibles</h4>
       <p>
         Nos enfocamos en la innovación continua para desarrollar productos
@@ -169,27 +165,29 @@
       </p>
     </div>
   </div>
-
+</div>
     <div class="full-title">
       <img class="left" src="./imagenes/11 (1).png" alt="" />
       <h2>Puedes traernos cualquier tipo de plásticos</h2>
-      <img class="right" src="./imagenes/15 (1).png" alt="">
+      <img class="right" src="./imagenes/15 (1) (1).png" alt="">
     </div>
 
-  </div>
+  
   <!-- Empresas afiliadas -->
   <div class="afiliados" id="afiliados">
     <h3>Empresas afiliadas</h3>
-    <div class="columnaInfo">
+    <div class="empresas">
+    <div class="">
       <img src="./imagenes/13 (1).png" alt="">
     </div>
 
-    <div class="columnaInfo"></div>
+    <div class="">
     <img src="./imagenes/14 (1).png" alt="">
-  </div>
+    </div>
 
-  <div class="columnaInfo"></div>
-  <img src="./imagenes/12 (1).png" alt="">
+    <div class="">
+    <img src="./imagenes/12 (1).png" alt="">
+    </div>
   </div>
   
   </div>
@@ -198,7 +196,7 @@
     <h3>Lo que ofrecemos</h3>
     <p>¿Está interesado en convertirse en uno de nuestros clientes? Esto es todo lo que tenemos para ofrecerle.</p>
     <div class="filaInfo">
-      <img src="./imagenes/" alt="">
+      <img src="./imagenes/boxed-water-is-better-5OW3G0VwjUc-unsplash.jpg" alt="">
       <span>Productos de Consumo</span>
       <ul>
         <li>Botellas y envases reciclados</li>
@@ -206,14 +204,15 @@
         <li>Mobiliario urbano y de jardín</li>
       </ul>
     </div>
-    <div class="filaInfo"></div>
-    <img src="./imagenes/" alt="">
+    <div class="filaInfo">
+    <img src="./imagenes/bluewater-sweden-aTeGi6tZD2c-unsplash.jpg" alt="">
     <span>Productos Industriales</span>
     <ul>
       <li>Palets y contenedores de transporte</li>
       <li>Componentes automotrices reciclados</li>
       <li>Paneles de construcción y aislamiento</li>
     </ul>
+  </div>
   </div>
   </div>
   <!-- Sección de contacto -->
@@ -235,5 +234,6 @@
     </form>
     <p class="copyright">Todos los derechos reservados para ©GreenFlip</p>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
