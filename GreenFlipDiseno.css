@@ -466,13 +466,16 @@ line-height: 1;
 }
 
 /* Estilo para la clase "filaInfo" */
-.filaInfo {
+.producto {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.filaInfo {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
     align-items: center;
     justify-content: space-around;
-    
     margin-bottom: 20px;
 }
 
@@ -482,6 +485,16 @@ line-height: 1;
     height: auto;
     border-radius: 5px;
     margin-right: 20px;
+    object-fit: cover;
+}
+
+.text ul {
+    margin: 5px 0 0;
+}
+
+.text span {
+    margin: 0;
+    font-size: 1.2em;
 }
 
 .filaInfo span {
